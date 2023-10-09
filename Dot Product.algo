@@ -1,0 +1,14 @@
+ALGORITHM Array_of_procedure
+
+PROCEDURE Dot_product: array;
+VAR
+    V1:INTEGER
+    V2:INTEGER
+    PS:INTEGER
+
+BEGIN
+    write(PS=v1*V2);
+    IF (PS = 0) THEN
+        write("V1 and V2 are orthogonal");
+    BREAK
+    END_IF

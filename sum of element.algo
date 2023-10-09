@@ -1,0 +1,35 @@
+ALGORITHM compare_two_array
+
+    tab1:[3,1,7,9];
+    tab2:[2,4,1,9,3];
+
+VAR
+    tab1: INTEGER[4]
+    tab2: INTEGER[5]
+
+    i:INTEGER
+    J: INTEGER
+    Sum: INTEGER=0
+
+BEGIN
+    write ("give first tab");
+    Read (tab1);
+    write ("give second tab");
+    Read (tab2);
+
+    IF (tab1[i] = tab2[j]) THEN
+        write("tab do not have equal length");
+    BREAK
+    END_IF
+
+    FOR i FROM 0 TO tab1.length-1 DO
+    Read (tab1[i]);
+        FOR i FROM 0 TO tab2.length-1 DO
+            Read(tab2[j])
+        END_FOR
+    END_FOR
+
+    ELSE
+        sum:=tab1[i] + tab2[j]
+        write : (sum);
+END
